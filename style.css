@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+
+body{
+    background-color: rgb(105, 100, 100);
+    grid-auto-columns: auto auto auto auto;
+    gap:5px;
+    display: flex;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(252, 249, 249);
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.card1{
+    background-color: white;
+    min-width: 20%;
+    height: 90vh;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 4px 5px 0;
+    float: right;
+}
+.card2{
+    background-color: white;
+    min-width: 20%;
+    height: 90vh;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 4px 5px 0;
+    float: right;
+}
+.card3{
+    background-color: white;
+    min-width: 20%;
+    height: 90vh;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 4px 5px 0;
+}
+.image-card{
+    background-color: aquamarine;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.car-1{
+    background-image: url(./11.jpeg);
+}
+.car-2{
+    background-image: url(./12.jpeg);
+}
+.car-3{
+    background-image: url(./13.jpeg);
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+
+}
+.card1:hover{
+    background-color: rgb(130, 132, 132);
+    color:rgb(251, 250, 250);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+.card2:hover{
+    background-color: rgb(130, 132, 132);
+    color:rgb(250, 247, 247);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+.card3:hover{
+    background-color: rgb(130, 132, 132);
+    color:rgb(246, 238, 238);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
